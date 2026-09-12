@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://latex.vercel.app/style.css">
+        <title>Uyen Doan</title>
+    <style>
+    .button {
+        border: none;
+        padding: 5px 14px;
+        text-align: left;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    .topnav {
+        overflow: hidden;
+    }
+
+    .topnav a {
+        float: right;
+        text-align: center;
+        padding: 5px 14px;
+        margin: 4px 2px;
+        text-decoration: none;
+    }
+
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .topnav a.split {
+        float: right;
+        background-color: #04AA6D;
+        color: white;
+    }
+    img {
+        border-radius: 25%;
+    }
+    </style>
+    </head>
+    <body>
+        <div class="topnav">
+            <button class='button', id="dark-mode-toggle">
+                <ion-icon name="contrast-outline"></ion-icon>
+            </button>
+            <a href="CV.pdf" target="_blank">
+                <ion-icon name="document-text-outline"></ion-icon>
+            </a>
+            <a href="https://scholar.google.com/citations?user=js5nKmwAAAAJ&hl=en" target="_blank">
+                <ion-icon name="school-outline"></ion-icon>
+            </a>
+            <a href="" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+        </div>
+        <div>
+            <img src="small-webphoto2.jpg" style="float: right; width: 200px;height: 200px; margin-left: 30px;margin-bottom: 20px;">
+        </div>
+        <h1>Uyen Doan</h1>
+        <p>
+            I am a PhD Candidate at the <a href="https://psychologicalsciences.unimelb.edu.au/chdh">Complex Human Data Hub</a>,
+            University of Melbourne. I study the relationship between memory and belief through Bayesian and clinical frameworks. <br><br>
+            I am particularly interested in memory narratives of personally experienced past events (autoiographical memories). 
+            I use large cohort datasets, natural language processing tools, experimental paradigms in semantic comprehension 
+            and associative learning, and computational modelling to study how and why differences in specificity of memory 
+            details might emerge as well as its implications. 
+        </p>
+        <h2>Selected papers</h2>
+        <p><b>Doan, U</b>, Goodwin, I, Brooker, A, Hitchcock, C, Knolle, F, & Perfors, A. Disentangling the role of 
+            semantic priors and sensory details in autobiographical memory retrieval. <i>Manuscript under preparation.</i> 
+            Code. <a href="EPC-July04.pdf">Talk</a>.</p>
+        <p><b>Doan, U</b>, Haylock, P, Brooker, A, Perfors, A, & Hitchcock, C. Longitudinal association of autobiographical 
+            memory specificity and overgeneral negative schema in a community sample of young people. <i>Manuscript under 
+            preparation.</i> Code. </p>
+        <p>Haylock, P, <b>Doan, U</b>, Lee, H, Hong, D, Phillips, L, & Hitchcock, C. Dynamic, interactive change in 
+            autobiographical memory, cognition, and depression in young adults: A longitudinal cohort study. 
+            <i>Under review.</i></p>
+        <p>Smith, A, Kirkpatrick, A, <b>Doan, U</b>, & Hitchcock, C. Autobiographical memory retrieval is a risk factor 
+            for psychotic experiences: a longitudinal cohort study of British youth. <i>Under review.</i>
+            <a href='http://dx.doi.org/10.2139/ssrn.6182581'>Preprint</a>.</p>
+        <p><b>Doan, U</b>, Hong, D, Mares, L, Butler, M, Askelund, AD, Gutenbrunner, C, ... & Hitchcock, C (2025). The 
+            predictive power of autobiographical memory in shaping the mental health of young people: An individual 
+            participant data meta-analysis. <i>Psychological Bulletin, 151(4)</i>, 455. 
+            <a href= 'https://doi.org/10.1037/bul0000474'>Paper</a>. Code. </p>
+        <p><b>Doan, U</b>, Hong, D, & Hitchcock, C (2025). Please, just talk to me: self-disclosure mediates the effect of 
+            autobiographical memory specificity on adolescent self-harm and depressive symptoms in a UK population-based 
+            study. <i>Journal of Affective Disorders, 376,</i> 10-17. 
+            <a href= 'https://doi.org/10.1016/j.jad.2025.01.141'>Paper</a>. Code. </p>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script>
+            document
+                .querySelector("#dark-mode-toggle")
+                .addEventListener('click', () => {
+                    document.body.classList.toggle("latex-dark");
+                });
+        </script>
+        
+    </body>
+</html>
